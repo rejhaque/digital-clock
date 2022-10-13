@@ -15,6 +15,8 @@ function updateClock(){
      }
 
      h = h < 10 ? "0" + h : h;
+     m = m < 10 ? "0" + m : m;
+     h = s < 10 ? "0" + s : s;
 
 
      hour.innerText = h;
